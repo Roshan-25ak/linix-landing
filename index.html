@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kali Linux Mastery – Complete Ethical Hacking Course</title>
+ <link rel="icon" href="icons.png" type="image/png" />
+
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      text-align: center;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #00c16e;
+    }
+    .course-poster {
+      width: 80%;
+      max-width: 600px;
+      border-radius: 12px;
+      margin: 20px 0;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.7);
+    }
+    .buy-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 28px;
+      background: #00c16e;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .buy-btn:hover {
+      background: #00a45c;
+    }
+    .buy-btn i {
+      margin-right: 8px;
+    }
+    video {
+      width: 100%;
+      max-width: 600px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    /* Slider */
+    .slider-container {
+      position: relative;
+      width: 900px;
+      margin: auto;
+      overflow: hidden;
+    }
+    .slider {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    .slide {
+      min-width: 100%;
+      text-align: center;
+    }
+    .slide img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #000;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      opacity: 0.6;
+      font-size: 20px;
+      border-radius: 20%;
+    }
+    .arrow.left { left: 10px; }
+    .arrow.right { right: 10px; }
+    .arrow:hover { opacity: 1; }
+
+    /* Promo Video Grid */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin: 40px;
+    }
+    .video-card {
+      background: #1c1c1c;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .video-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 255, 128, 0.7);
+    }
+    .video-card video {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .video-card p {
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: bold;
+      color: #00ff80;
+      text-transform: uppercase;
+    }
+    .video-card i {
+      margin-right: 6px;
+    }
+
+    p { font-size: 28px; }
+
+    .courses{
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .course-card{
+      flex: 1 1 360px;
+      max-width: 520px;
+      background: linear-gradient(180deg, #0f172a 0%, #071229 100%);
+      color: #e6eef8;
+      padding: 22px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(2,6,23,0.6);
+      transition: transform 180ms ease, box-shadow 180ms ease;
+      border: 1px solid rgba(255,255,255,0.03);
+    }
+    .course-card:hover{
+      transform: translateY(-6px) scale(1.01);
+      box-shadow: 0 16px 40px rgba(3,10,30,0.75), 0 0 18px rgba(52,199,235,0.08);
+      outline: 2px solid rgba(52,199,235,0.06);
+    }
+    .course-card h2{
+      margin: 0 0 12px 0;
+      font-size: 1.25rem;
+      letter-spacing: -0.2px;
+    }
+    .course-card ul{
+      margin: 0;
+      padding-left: 1.1rem;
+      line-height: 1.6;
+    }
+    .course-card li{
+      margin-bottom: 8px;
+    }
+
+    @media (max-width: 720px){
+      .courses{
+        flex-direction: column;
+        gap: 14px;
+        padding: 0 12px;
+      }
+      .course-card{
+        max-width: none;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>UDEMY's</h1>
+    <h1>Full Kali Linux Mastery – Complete Ethical Hacking Course</h1>
+    <p>🔥 Unlock the secrets of 83+ HD video lessons for ethical hacking & cybersecurity From UDEMY.</p>
+    <h1>Become an Ethical Hacker at Just a Amount of ₹99</h1>
+    <p><strong>Price: Just ₹99 Only</strong></p>
+    <a href="https://payments.cashfree.com/forms/kali-guidee" class="buy-btn" target="_blank">
+      <i class="fas fa-shopping-cart"></i> Buy Now
+    </a>
+    <h1>Website's PROMO</h1>
+    <video controls>
+      <source src="sample.mov" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <h1 style="text-align:center;">Sample Udemy Course Videos</h1>
+  <div class="video-grid">
+    <div class="video-card">
+      <video controls poster="udemy.png">
+        <source src="Introduction.mp4" type="video/mp4" />
+      </video>
+      <p><i class="fas fa-play-circle"></i> INTRODUCTION OF KALI LINUX</p>
+    </div>
+    <div class="video-card">
+      <video controls poster="udemy.png">
+        <source src="Install KALI (Command Center).mp4" type="video/mp4" />
+      </video>
+      <p><i class="fas fa-download"></i> Installation</p>
+    </div>
+    <div class="video-card">
+      <video controls poster="udemy.png">
+        <source src="Get Started with Linux Commands.mp4" type="video/mp4" />
+      </video>
+      <p><i class="fas fa-terminal"></i> Get Started with KALI LINUX</p>
+    </div>
+    <div class="video-card">
+      <video controls poster="udemy.png">
+        <source src="Various Password Attacks.mp4" type="video/mp4" />
+      </video>
+      <p><i class="fas fa-shield-alt"></i> Attack on Kali LINUX</p>
+    </div>
+  </div>
+
+  <h1 style="text-align:center;">Course Previews</h1>
+  <div class="slider-container">
+    <button class="arrow left" onclick="prevSlide()">❮</button>
+    <div class="slider" id="slider">
+      <div class="slide"><img src="image.png" alt="Preview 1" /></div>
+      <div class="slide"><img src="disabled.png" alt="Preview 2" /></div>
+      <div class="slide"><img src="kali.png" alt="Preview 3" /></div>
+    </div>
+    <button class="arrow right" onclick="nextSlide()">❯</button>
+  </div>
+
+  <div class="courses">
+    <div class="course-card">
+      <h2>What You’ll Learn 🚀 <i class="fas fa-laptop-code"></i></h2>
+      <ul>
+        <li>Master Kali Linux tools for penetration testing</li>
+        <li>Learn Wi‑Fi hacking, network scanning, and exploitation</li>
+        <li>Real‑world ethical hacking case studies</li>
+        <li>Step‑by‑step labs with 80+ HD video lessons</li>
+      </ul>
+    </div>
+    <div class="course-card">
+      <h2>Course Highlights 🎯 <i class="fas fa-star"></i></h2>
+      <ul>
+        <li>UDEMY's Full couse for Just ₹ 99</li>
+        <li>Lifetime access to all 83 video lessons</li>
+        <li>Practical projects and assignments</li>
+        <li>Direct download access after purchase</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    const slider = document.getElementById("slider");
+    const slides = document.querySelectorAll(".slide");
+    let index = 0;
+
+    function showSlide(i) {
+      index = (i + slides.length) % slides.length;
+      slider.style.transform = `translateX(${-index * 100}%)`;
+    }
+
+    function nextSlide() { showSlide(index + 1); }
+    function prevSlide() { showSlide(index - 1); }
+
+    setInterval(nextSlide, 8000);
+  </script>
+</body>
+</html>
